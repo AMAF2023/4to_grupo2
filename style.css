@@ -1,5 +1,31 @@
+ul{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+}
 li{
 width: 50;
-display: flex;
+padding: 10px;
+color: white;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
 }
+
 body{background-color: rgb(255, 255, 255);}
+
+.encabezado{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 50px;
+    
+    background-color: rgb(80, 143, 8);
+}
+
+.titulo div{
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
