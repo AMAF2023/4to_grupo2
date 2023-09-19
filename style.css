@@ -172,3 +172,8 @@ justify-content: center;
 display: flex;
 }  
 
+button.botonesNav{
+    color: white;
+    border: solid 1px white;
+    border-color: aliceblue;
+}
